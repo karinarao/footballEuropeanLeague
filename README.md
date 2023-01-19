@@ -4,7 +4,7 @@
 
 I recommend using docker dev environment to run the notebook. The docker dev environment is defined in the .docker folder.
 
-To run the notebook, you can ue the following command:
+To run the notebook, you can use the following command:
 
 ```bash
     docker-compose up --build
