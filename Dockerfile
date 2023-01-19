@@ -1,5 +1,11 @@
 FROM jupyter/datascience-notebook
 
+RUN pip install --upgrade pip
+
+RUN pip install lxml
+
+RUN pip install ipython ipykernel
+
 COPY . /notebooks
 
 WORKDIR /notebooks
